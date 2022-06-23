@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  width: 100;
 }
 .container{
 width: 100%;
@@ -67,7 +68,7 @@ color: #ff5ea2;
   background: #222;
   width: 1500px;
   height: 40px;
-  text-align: center;
+  text-align:center;
   padding: 10px;
   color: #555;
 }
@@ -97,3 +98,40 @@ color: #ff5ea2;
 .text2 span{
   color: #444;
  
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.card {
+  flex: 0 0 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  
+  
+} 
+.card img {
+  max-width: 100%;
+ 
+}
+.card .text {
+  padding: 0 20px 20px;
+}
+.card .text > button {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
+  .course h2{
+    color: brown;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+  font-weight: bold;
+    
+  }
