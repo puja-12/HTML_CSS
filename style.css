@@ -135,3 +135,25 @@ color: #ff5ea2;
   font-weight: bold;
     
   }
+  .media {
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    border-radius: 3px;
+   
+  }
+  .media-object {
+    margin-left: 40em;
+    margin-bottom: 50px;
+    width: 30%;
+   order: 1;
+  
+  }
+
+  .media-body {
+    flex: 1;
+  }
+  .media-heading {
+    margin: 0 0 .5em;
+  }
