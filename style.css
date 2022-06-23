@@ -84,7 +84,16 @@ color: #ff5ea2;
   box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
   max-width: 23vw;
 }
-h2{
+.text2{
   text-align: center;
   margin: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  color:  #a96851;
+  padding-top: 20px;
+  margin-bottom: 20px;
+
 }
+.text2 span{
+  color: #444;
+ 
